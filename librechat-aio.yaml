@@ -495,6 +495,15 @@ endpoints:
       baseURL: "https://models.inference.ai.azure.com"
       models:
         default:
+          - gpt-4.1
+          - gpt-4.1-mini
+          - o4-mini
+          - gpt-4o
+          - gpt-4o-mini
+          - o3-mini
+          - o1-preview
+          - o1
+          - MAI-DS-R1
           - AI21-Jamba-Instruct
           - AI21-Jamba-1.5-Large
           - Cohere-command-r
@@ -519,13 +528,7 @@ endpoints:
           - Phi-3-small-128k-instruct
           - Phi-3-small-8k-instruct
           - Phi-3.5-mini-instruct
-          - gpt-4o
-          - gpt-4o-mini
-          - o3-mini
-          - o1-preview
-          - o1
           - DeepSeek-R1
-          
           - text-embedding-3-large
           - text-embedding-3-small
         fetch: false
